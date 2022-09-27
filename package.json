@@ -1,0 +1,8 @@
+{
+  "name": "voya-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "@voyajs/api": "workspace:*"
+  }
+}
