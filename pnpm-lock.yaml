@@ -5,8 +5,10 @@ importers:
   .:
     specifiers:
       '@voyajs/api': workspace:*
+      '@voyajs/web': workspace:*
     devDependencies:
       '@voyajs/api': link:packages/api
+      '@voyajs/web': link:packages/web
 
   packages/api:
     specifiers:
@@ -68,6 +70,9 @@ importers:
       tsconfig-paths: 4.1.0
       typescript: 4.8.3
       webpack: 5.74.0
+
+  packages/web:
+    specifiers: {}
 
 packages:
 
