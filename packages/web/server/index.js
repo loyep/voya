@@ -10,9 +10,6 @@ main();
 function main() {
     app.use(express.static("public", {immutable: true, maxAge: "1y"}));
     const middleware = process.env.NODE_ENV === "production" ? prodHandler() : devHandler();
-    app.all("*", (req, res, next) => {
-        return middleware(req, res, next);
-    },);
 
     app.use((req, res, next) => {
         res._startTime = Date.now();
@@ -25,6 +22,11 @@ function main() {
         res.once('close', calResponseTime);
         return next();
     })
+
+    app.all("*", (req, res, next) => {
+        console.log(`Request: ${req.method} ${req.url}`);
+        return middleware(req, res, next);
+    },);
 
     app.listen(port, () => {
         console.log(`Express server started on http://localhost:${port}`);
