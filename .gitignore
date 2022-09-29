@@ -39,3 +39,4 @@ web_modules/
 .turbo/
 .DS_Store
 .htaccess
+**/server/build/
