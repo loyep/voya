@@ -45,6 +45,7 @@
     "@remix-run/eslint-config": "^1.7.2",
     "@testing-library/cypress": "^8.0.3",
     "@testing-library/dom": "^8.18.1",
+    "@remix-run/express": "^1.7.0",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@types/express": "^4.17.13",
