@@ -38,3 +38,4 @@ web_modules/
 .idea
 .turbo/
 .DS_Store
+.htaccess
