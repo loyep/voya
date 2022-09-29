@@ -19,10 +19,10 @@ const Dashboard: FC = () => {
                             <Link to={'/admin'}>首页</Link>
                         </Menu.Item>
                         <Menu.Item>
-                            <Link to={'/admin'}>活动模板</Link>
+                            <Link to={'/admin/act/theme'}>活动模板</Link>
                         </Menu.Item>
                         <Menu.Item>
-                            <Link to={'/admin'}>活动管理</Link>
+                            <Link to={'/admin/act/mange'}>活动管理</Link>
                         </Menu.Item>
                     </Menu>
                 </Layout.Sider>

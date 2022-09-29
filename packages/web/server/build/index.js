@@ -264,15 +264,152 @@ function App() {
   }, this);
 }
 
+// app/routes/admin/act/manage.tsx
+var manage_exports = {};
+__export(manage_exports, {
+  default: () => manage_default
+});
+var import_react3 = require("react"), import_antd2 = require("antd"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), columns = [
+  {
+    title: "Name",
+    dataIndex: "name",
+    render: (text) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", {
+      children: text
+    }, void 0, !1, {
+      fileName: "app/routes/admin/act/manage.tsx",
+      lineNumber: 16,
+      columnNumber: 35
+    }, this)
+  },
+  {
+    title: "Age",
+    dataIndex: "age"
+  },
+  {
+    title: "Address",
+    dataIndex: "address"
+  }
+], Theme = () => {
+  let [data] = (0, import_react3.useState)([]);
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_jsx_dev_runtime.Fragment, {
+    children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Tabs, {
+        children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Tabs.TabPane, {
+            tab: "\u5168\u90E8"
+          }, "0", !1, {
+            fileName: "app/routes/admin/act/manage.tsx",
+            lineNumber: 34,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Tabs.TabPane, {
+            tab: "\u672A\u5F00\u59CB"
+          }, "1", !1, {
+            fileName: "app/routes/admin/act/manage.tsx",
+            lineNumber: 35,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Tabs.TabPane, {
+            tab: "\u8FDB\u884C\u4E2D"
+          }, "2", !1, {
+            fileName: "app/routes/admin/act/manage.tsx",
+            lineNumber: 36,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Tabs.TabPane, {
+            tab: "\u5DF2\u7ED3\u675F"
+          }, "3", !1, {
+            fileName: "app/routes/admin/act/manage.tsx",
+            lineNumber: 37,
+            columnNumber: 17
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Tabs.TabPane, {
+            tab: "\u5DF2\u5173\u95ED"
+          }, "4", !1, {
+            fileName: "app/routes/admin/act/manage.tsx",
+            lineNumber: 38,
+            columnNumber: 17
+          }, this)
+        ]
+      }, void 0, !0, {
+        fileName: "app/routes/admin/act/manage.tsx",
+        lineNumber: 33,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Table, {
+        columns,
+        dataSource: data
+      }, void 0, !1, {
+        fileName: "app/routes/admin/act/manage.tsx",
+        lineNumber: 40,
+        columnNumber: 13
+      }, this)
+    ]
+  }, void 0, !0, {
+    fileName: "app/routes/admin/act/manage.tsx",
+    lineNumber: 32,
+    columnNumber: 9
+  }, this);
+}, manage_default = Theme;
+
+// app/routes/admin/act/theme.tsx
+var theme_exports = {};
+__export(theme_exports, {
+  default: () => theme_default
+});
+var import_antd3 = require("antd"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Theme2 = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd3.Tabs, {
+  children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd3.Tabs.TabPane, {
+      tab: "\u5168\u90E8"
+    }, "0", !1, {
+      fileName: "app/routes/admin/act/theme.tsx",
+      lineNumber: 8,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd3.Tabs.TabPane, {
+      tab: "\u672A\u5F00\u59CB"
+    }, "1", !1, {
+      fileName: "app/routes/admin/act/theme.tsx",
+      lineNumber: 9,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd3.Tabs.TabPane, {
+      tab: "\u8FDB\u884C\u4E2D"
+    }, "2", !1, {
+      fileName: "app/routes/admin/act/theme.tsx",
+      lineNumber: 10,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd3.Tabs.TabPane, {
+      tab: "\u5DF2\u7ED3\u675F"
+    }, "3", !1, {
+      fileName: "app/routes/admin/act/theme.tsx",
+      lineNumber: 11,
+      columnNumber: 13
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd3.Tabs.TabPane, {
+      tab: "\u5DF2\u5173\u95ED"
+    }, "4", !1, {
+      fileName: "app/routes/admin/act/theme.tsx",
+      lineNumber: 12,
+      columnNumber: 13
+    }, this)
+  ]
+}, void 0, !0, {
+  fileName: "app/routes/admin/act/theme.tsx",
+  lineNumber: 7,
+  columnNumber: 9
+}, this), theme_default = Theme2;
+
 // app/routes/admin/index.tsx
 var admin_exports = {};
 __export(admin_exports, {
   default: () => admin_default
 });
-var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Dashboard = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout, {
+var import_react4 = require("@remix-run/react"), import_antd4 = require("antd"), import_jsx_dev_runtime = require("react/jsx-dev-runtime"), Dashboard = () => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout, {
   className: "h-full",
   children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout.Header, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout.Header, {
       children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
         children: "logo"
       }, void 0, !1, {
@@ -285,13 +422,13 @@ var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"),
       lineNumber: 9,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout, {
       children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout.Sider, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout.Sider, {
           theme: "light",
           children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
-              children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Button, {
+              children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Button, {
                 block: !0,
                 children: "\u521B\u5EFA\u6D3B\u52A8"
               }, void 0, !1, {
@@ -304,12 +441,12 @@ var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"),
               lineNumber: 14,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Menu, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Menu, {
               theme: "light",
               mode: "inline",
               children: [
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Menu.Item, {
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react3.Link, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Menu.Item, {
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react4.Link, {
                     to: "/admin",
                     children: "\u9996\u9875"
                   }, void 0, !1, {
@@ -322,9 +459,9 @@ var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"),
                   lineNumber: 18,
                   columnNumber: 25
                 }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Menu.Item, {
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react3.Link, {
-                    to: "/admin",
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Menu.Item, {
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react4.Link, {
+                    to: "/admin/act/theme",
                     children: "\u6D3B\u52A8\u6A21\u677F"
                   }, void 0, !1, {
                     fileName: "app/routes/admin/index.tsx",
@@ -336,9 +473,9 @@ var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"),
                   lineNumber: 21,
                   columnNumber: 25
                 }, this),
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Menu.Item, {
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react3.Link, {
-                    to: "/admin",
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Menu.Item, {
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react4.Link, {
+                    to: "/admin/act/mange",
                     children: "\u6D3B\u52A8\u7BA1\u7406"
                   }, void 0, !1, {
                     fileName: "app/routes/admin/index.tsx",
@@ -362,12 +499,12 @@ var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"),
           lineNumber: 13,
           columnNumber: 17
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout, {
           children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout.Content, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout.Content, {
               children: [
                 "Content",
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react3.Outlet, {}, void 0, !1, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react4.Outlet, {}, void 0, !1, {
                   fileName: "app/routes/admin/index.tsx",
                   lineNumber: 32,
                   columnNumber: 25
@@ -378,7 +515,7 @@ var import_react3 = require("@remix-run/react"), import_antd2 = require("antd"),
               lineNumber: 30,
               columnNumber: 21
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd2.Layout.Footer, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_antd4.Layout.Footer, {
               children: "Footer"
             }, void 0, !1, {
               fileName: "app/routes/admin/index.tsx",
@@ -444,15 +581,15 @@ var routes_exports = {};
 __export(routes_exports, {
   default: () => Index
 });
-var import_react6 = require("@remix-run/react");
+var import_react7 = require("@remix-run/react");
 
 // app/utils.ts
-var import_react4 = require("@remix-run/react"), import_react5 = require("react"), DEFAULT_REDIRECT = "/";
+var import_react5 = require("@remix-run/react"), import_react6 = require("react"), DEFAULT_REDIRECT = "/";
 function safeRedirect(to, defaultRedirect = DEFAULT_REDIRECT) {
   return !to || typeof to != "string" || !to.startsWith("/") || to.startsWith("//") ? defaultRedirect : to;
 }
 function useMatchesData(id) {
-  let matchingRoutes = (0, import_react4.useMatches)(), route = (0, import_react5.useMemo)(
+  let matchingRoutes = (0, import_react5.useMatches)(), route = (0, import_react6.useMemo)(
     () => matchingRoutes.find((route2) => route2.id === id),
     [matchingRoutes, id]
   );
@@ -545,7 +682,7 @@ function Index() {
                   }, this),
                   /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                     className: "mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center",
-                    children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react6.Link, {
+                    children: user ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react7.Link, {
                       to: "/notes",
                       className: "flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8",
                       children: [
@@ -559,7 +696,7 @@ function Index() {
                     }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
                       className: "space-y-4 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5 sm:space-y-0",
                       children: [
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react6.Link, {
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react7.Link, {
                           to: "/join",
                           className: "flex items-center justify-center rounded-md border border-transparent bg-white px-4 py-3 text-base font-medium text-yellow-700 shadow-sm hover:bg-yellow-50 sm:px-8",
                           children: "Sign up"
@@ -568,7 +705,7 @@ function Index() {
                           lineNumber: 40,
                           columnNumber: 21
                         }, this),
-                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react6.Link, {
+                        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react7.Link, {
                           to: "/login",
                           className: "flex items-center justify-center rounded-md bg-yellow-500 px-4 py-3 font-medium text-white hover:bg-yellow-600",
                           children: "Log In"
@@ -729,7 +866,7 @@ __export(login_exports, {
   loader: () => loader4,
   meta: () => meta2
 });
-var import_node5 = require("@remix-run/node"), import_react7 = require("@remix-run/react"), React = __toESM(require("react"));
+var import_node5 = require("@remix-run/node"), import_react8 = require("@remix-run/react"), React2 = __toESM(require("react"));
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 async function loader4({ request }) {
   return await getUserId(request) ? (0, import_node5.redirect)("/") : (0, import_node5.json)({});
@@ -767,15 +904,15 @@ var meta2 = () => ({
 });
 function LoginPage() {
   var _a, _b, _c, _d;
-  let [searchParams] = (0, import_react7.useSearchParams)(), redirectTo = searchParams.get("redirectTo") || "/notes", actionData = (0, import_react7.useActionData)(), emailRef = React.useRef(null), passwordRef = React.useRef(null);
-  return React.useEffect(() => {
+  let [searchParams] = (0, import_react8.useSearchParams)(), redirectTo = searchParams.get("redirectTo") || "/notes", actionData = (0, import_react8.useActionData)(), emailRef = React2.useRef(null), passwordRef = React2.useRef(null);
+  return React2.useEffect(() => {
     var _a2, _b2, _c2, _d2;
     (_a2 = actionData == null ? void 0 : actionData.errors) != null && _a2.email ? (_b2 = emailRef.current) == null || _b2.focus() : (_c2 = actionData == null ? void 0 : actionData.errors) != null && _c2.password && ((_d2 = passwordRef.current) == null || _d2.focus());
   }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
     className: "flex min-h-full flex-col justify-center",
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
       className: "mx-auto w-full max-w-md px-8",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react7.Form, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.Form, {
         method: "post",
         className: "space-y-6",
         children: [
@@ -933,7 +1070,7 @@ function LoginPage() {
                 children: [
                   "Don't have an account?",
                   " ",
-                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react7.Link, {
+                  /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.Link, {
                     className: "text-blue-500 underline",
                     to: {
                       pathname: "/join",
@@ -981,7 +1118,7 @@ __export(notes_exports, {
   default: () => NotesPage,
   loader: () => loader5
 });
-var import_node6 = require("@remix-run/node"), import_react8 = require("@remix-run/react");
+var import_node6 = require("@remix-run/node"), import_react9 = require("@remix-run/react");
 
 // app/models/note.server.ts
 function getNote({
@@ -1033,7 +1170,7 @@ async function loader5({ request }) {
   return (0, import_node6.json)({ noteListItems });
 }
 function NotesPage() {
-  let data = (0, import_react8.useLoaderData)(), user = useUser();
+  let data = (0, import_react9.useLoaderData)(), user = useUser();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
     className: "flex h-full min-h-screen flex-col",
     children: [
@@ -1042,7 +1179,7 @@ function NotesPage() {
         children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", {
             className: "text-3xl font-bold",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.Link, {
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Link, {
               to: ".",
               children: "Notes"
             }, void 0, !1, {
@@ -1062,7 +1199,7 @@ function NotesPage() {
             lineNumber: 25,
             columnNumber: 9
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.Form, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Form, {
             action: "/logout",
             method: "post",
             children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
@@ -1091,7 +1228,7 @@ function NotesPage() {
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
             className: "h-full w-80 border-r bg-gray-50",
             children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.Link, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Link, {
                 to: "new",
                 className: "block p-4 text-xl text-blue-500",
                 children: "+ New Note"
@@ -1114,7 +1251,7 @@ function NotesPage() {
                 columnNumber: 13
               }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ol", {
                 children: data.noteListItems.map((note) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", {
-                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.NavLink, {
+                  children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.NavLink, {
                     className: ({ isActive }) => `block border-b p-4 text-xl ${isActive ? "bg-white" : ""}`,
                     to: note.id,
                     children: [
@@ -1144,7 +1281,7 @@ function NotesPage() {
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
             className: "flex-1 p-6",
-            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react8.Outlet, {}, void 0, !1, {
+            children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Outlet, {}, void 0, !1, {
               fileName: "app/routes/notes.tsx",
               lineNumber: 65,
               columnNumber: 11
@@ -1177,7 +1314,7 @@ __export(noteId_exports, {
   default: () => NoteDetailsPage,
   loader: () => loader6
 });
-var import_node7 = require("@remix-run/node"), import_react9 = require("@remix-run/react"), import_tiny_invariant2 = __toESM(require("tiny-invariant"));
+var import_node7 = require("@remix-run/node"), import_react10 = require("@remix-run/react"), import_tiny_invariant2 = __toESM(require("tiny-invariant"));
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 async function loader6({ request, params }) {
   let userId = await requireUserId(request);
@@ -1192,7 +1329,7 @@ async function action3({ request, params }) {
   return (0, import_tiny_invariant2.default)(params.noteId, "noteId not found"), await deleteNote({ userId, id: params.noteId }), (0, import_node7.redirect)("/notes");
 }
 function NoteDetailsPage() {
-  let data = (0, import_react9.useLoaderData)();
+  let data = (0, import_react10.useLoaderData)();
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h3", {
@@ -1218,7 +1355,7 @@ function NoteDetailsPage() {
         lineNumber: 36,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react9.Form, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react10.Form, {
         method: "post",
         children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", {
           type: "submit",
@@ -1254,7 +1391,7 @@ function ErrorBoundary({ error }) {
   }, this);
 }
 function CatchBoundary() {
-  let caught = (0, import_react9.useCatch)();
+  let caught = (0, import_react10.useCatch)();
   if (caught.status === 404)
     return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
       children: "Note not found"
@@ -1271,13 +1408,13 @@ var notes_exports2 = {};
 __export(notes_exports2, {
   default: () => NoteIndexPage
 });
-var import_react10 = require("@remix-run/react"), import_jsx_dev_runtime = require("react/jsx-dev-runtime");
+var import_react11 = require("@remix-run/react"), import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 function NoteIndexPage() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", {
     children: [
       "No note selected. Select a note on the left, or",
       " ",
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react10.Link, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react11.Link, {
         to: "new",
         className: "text-blue-500 underline",
         children: "create a new note."
@@ -1300,7 +1437,7 @@ __export(new_exports, {
   action: () => action4,
   default: () => NewNotePage
 });
-var import_node8 = require("@remix-run/node"), import_react11 = require("@remix-run/react"), React2 = __toESM(require("react"));
+var import_node8 = require("@remix-run/node"), import_react12 = require("@remix-run/react"), React3 = __toESM(require("react"));
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 async function action4({ request }) {
   let userId = await requireUserId(request), formData = await request.formData(), title = formData.get("title"), body = formData.get("body");
@@ -1319,11 +1456,11 @@ async function action4({ request }) {
 }
 function NewNotePage() {
   var _a, _b, _c, _d, _e, _f;
-  let actionData = (0, import_react11.useActionData)(), titleRef = React2.useRef(null), bodyRef = React2.useRef(null);
-  return React2.useEffect(() => {
+  let actionData = (0, import_react12.useActionData)(), titleRef = React3.useRef(null), bodyRef = React3.useRef(null);
+  return React3.useEffect(() => {
     var _a2, _b2, _c2, _d2;
     (_a2 = actionData == null ? void 0 : actionData.errors) != null && _a2.title ? (_b2 = titleRef.current) == null || _b2.focus() : (_c2 = actionData == null ? void 0 : actionData.errors) != null && _c2.body && ((_d2 = bodyRef.current) == null || _d2.focus());
-  }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react11.Form, {
+  }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react12.Form, {
     method: "post",
     style: {
       display: "flex",
@@ -1453,7 +1590,7 @@ __export(join_exports, {
   loader: () => loader7,
   meta: () => meta3
 });
-var import_node9 = require("@remix-run/node"), import_react12 = require("@remix-run/react"), React3 = __toESM(require("react"));
+var import_node9 = require("@remix-run/node"), import_react13 = require("@remix-run/react"), React4 = __toESM(require("react"));
 var import_jsx_dev_runtime = require("react/jsx-dev-runtime");
 async function loader7({ request }) {
   return await getUserId(request) ? (0, import_node9.redirect)("/") : (0, import_node9.json)({});
@@ -1498,15 +1635,15 @@ var meta3 = () => ({
 });
 function Join() {
   var _a, _b, _c, _d;
-  let [searchParams] = (0, import_react12.useSearchParams)(), redirectTo = searchParams.get("redirectTo") ?? void 0, actionData = (0, import_react12.useActionData)(), emailRef = React3.useRef(null), passwordRef = React3.useRef(null);
-  return React3.useEffect(() => {
+  let [searchParams] = (0, import_react13.useSearchParams)(), redirectTo = searchParams.get("redirectTo") ?? void 0, actionData = (0, import_react13.useActionData)(), emailRef = React4.useRef(null), passwordRef = React4.useRef(null);
+  return React4.useEffect(() => {
     var _a2, _b2, _c2, _d2;
     (_a2 = actionData == null ? void 0 : actionData.errors) != null && _a2.email ? (_b2 = emailRef.current) == null || _b2.focus() : (_c2 = actionData == null ? void 0 : actionData.errors) != null && _c2.password && ((_d2 = passwordRef.current) == null || _d2.focus());
   }, [actionData]), /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
     className: "flex min-h-full flex-col justify-center",
     children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", {
       className: "mx-auto w-full max-w-md px-8",
-      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react12.Form, {
+      children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react13.Form, {
         method: "post",
         className: "space-y-6",
         children: [
@@ -1635,7 +1772,7 @@ function Join() {
               children: [
                 "Already have an account?",
                 " ",
-                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react12.Link, {
+                /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(import_react13.Link, {
                   className: "text-blue-500 underline",
                   to: {
                     pathname: "/login",
@@ -1677,7 +1814,7 @@ function Join() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "f6b8e8b0", entry: { module: "/build/entry.client-TCEN7W7H.js", imports: ["/build/_shared/chunk-755BQ2HA.js", "/build/_shared/chunk-YYTJXKBK.js", "/build/_shared/chunk-5KL4PAQL.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-FLK6XPK2.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/admin/index": { id: "routes/admin/index", parentId: "root", path: "admin", index: !0, caseSensitive: void 0, module: "/build/routes/admin/index-74LGHXVL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/healthcheck": { id: "routes/healthcheck", parentId: "root", path: "healthcheck", index: void 0, caseSensitive: void 0, module: "/build/routes/healthcheck-QB3PEZAZ.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-VIIBDRIU.js", imports: ["/build/_shared/chunk-WQSTFRTU.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/join": { id: "routes/join", parentId: "root", path: "join", index: void 0, caseSensitive: void 0, module: "/build/routes/join-MR2LB5OW.js", imports: ["/build/_shared/chunk-M2ND3YFM.js", "/build/_shared/chunk-GLWAIFE6.js", "/build/_shared/chunk-WQSTFRTU.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-ZO7YYP5B.js", imports: ["/build/_shared/chunk-M2ND3YFM.js", "/build/_shared/chunk-GLWAIFE6.js", "/build/_shared/chunk-WQSTFRTU.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-DOMDNNGV.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/notes": { id: "routes/notes", parentId: "root", path: "notes", index: void 0, caseSensitive: void 0, module: "/build/routes/notes-D73E76ZX.js", imports: ["/build/_shared/chunk-E4QSSUG6.js", "/build/_shared/chunk-GLWAIFE6.js", "/build/_shared/chunk-WQSTFRTU.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/notes/$noteId": { id: "routes/notes/$noteId", parentId: "routes/notes", path: ":noteId", index: void 0, caseSensitive: void 0, module: "/build/routes/notes/$noteId-B6BIL7XF.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/notes/index": { id: "routes/notes/index", parentId: "routes/notes", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/notes/index-2SWCWHA7.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/notes/new": { id: "routes/notes/new", parentId: "routes/notes", path: "new", index: void 0, caseSensitive: void 0, module: "/build/routes/notes/new-Z7OA6R55.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-F6B8E8B0.js" };
+var assets_manifest_default = { version: "1ec5b79c", entry: { module: "/build/entry.client-SUTHJWFM.js", imports: ["/build/_shared/chunk-RUBCODVY.js", "/build/_shared/chunk-SEH4S5P5.js", "/build/_shared/chunk-3GQ5GBTL.js", "/build/_shared/chunk-5KL4PAQL.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-D5DFKVR5.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/admin/act/manage": { id: "routes/admin/act/manage", parentId: "root", path: "admin/act/manage", index: void 0, caseSensitive: void 0, module: "/build/routes/admin/act/manage-HMO3DBS4.js", imports: ["/build/_shared/chunk-LDOFZMVQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/admin/act/theme": { id: "routes/admin/act/theme", parentId: "root", path: "admin/act/theme", index: void 0, caseSensitive: void 0, module: "/build/routes/admin/act/theme-PRX33CHF.js", imports: ["/build/_shared/chunk-LDOFZMVQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/admin/index": { id: "routes/admin/index", parentId: "root", path: "admin", index: !0, caseSensitive: void 0, module: "/build/routes/admin/index-OFOYIBWB.js", imports: ["/build/_shared/chunk-LDOFZMVQ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/healthcheck": { id: "routes/healthcheck", parentId: "root", path: "healthcheck", index: void 0, caseSensitive: void 0, module: "/build/routes/healthcheck-QB3PEZAZ.js", imports: void 0, hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-RB5TOLQX.js", imports: ["/build/_shared/chunk-C7HLLHSP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/join": { id: "routes/join", parentId: "root", path: "join", index: void 0, caseSensitive: void 0, module: "/build/routes/join-NQKFFQUE.js", imports: ["/build/_shared/chunk-M2ND3YFM.js", "/build/_shared/chunk-GLWAIFE6.js", "/build/_shared/chunk-C7HLLHSP.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/login": { id: "routes/login", parentId: "root", path: "login", index: void 0, caseSensitive: void 0, module: "/build/routes/login-OJ2JLE3G.js", imports: ["/build/_shared/chunk-M2ND3YFM.js", "/build/_shared/chunk-GLWAIFE6.js", "/build/_shared/chunk-C7HLLHSP.js"], hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/logout": { id: "routes/logout", parentId: "root", path: "logout", index: void 0, caseSensitive: void 0, module: "/build/routes/logout-DOMDNNGV.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/notes": { id: "routes/notes", parentId: "root", path: "notes", index: void 0, caseSensitive: void 0, module: "/build/routes/notes-7QWBHWAW.js", imports: ["/build/_shared/chunk-E4QSSUG6.js", "/build/_shared/chunk-GLWAIFE6.js", "/build/_shared/chunk-C7HLLHSP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/notes/$noteId": { id: "routes/notes/$noteId", parentId: "routes/notes", path: ":noteId", index: void 0, caseSensitive: void 0, module: "/build/routes/notes/$noteId-ODYQZ4A2.js", imports: void 0, hasAction: !0, hasLoader: !0, hasCatchBoundary: !0, hasErrorBoundary: !0 }, "routes/notes/index": { id: "routes/notes/index", parentId: "routes/notes", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/notes/index-PTLXXNTJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/notes/new": { id: "routes/notes/new", parentId: "routes/notes", path: "new", index: void 0, caseSensitive: void 0, module: "/build/routes/notes/new-FE36ZNAH.js", imports: void 0, hasAction: !0, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-1EC5B79C.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -1688,6 +1825,22 @@ var assetsBuildDirectory = "public/build", publicPath = "/build/", entry = { mod
     index: void 0,
     caseSensitive: void 0,
     module: root_exports
+  },
+  "routes/admin/act/manage": {
+    id: "routes/admin/act/manage",
+    parentId: "root",
+    path: "admin/act/manage",
+    index: void 0,
+    caseSensitive: void 0,
+    module: manage_exports
+  },
+  "routes/admin/act/theme": {
+    id: "routes/admin/act/theme",
+    parentId: "root",
+    path: "admin/act/theme",
+    index: void 0,
+    caseSensitive: void 0,
+    module: theme_exports
   },
   "routes/admin/index": {
     id: "routes/admin/index",
