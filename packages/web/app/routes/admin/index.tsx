@@ -22,7 +22,7 @@ const Dashboard: FC = () => {
                             <Link to={'/admin/act/theme'}>活动模板</Link>
                         </Menu.Item>
                         <Menu.Item>
-                            <Link to={'/admin/act/mange'}>活动管理</Link>
+                            <Link to={'/admin/act/manage'}>活动管理</Link>
                         </Menu.Item>
                     </Menu>
                 </Layout.Sider>
